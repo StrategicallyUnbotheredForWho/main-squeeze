@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color Tokens - Main Squeeze Lemon Theme */
+  --color-lemon-yellow: #FFF9E6;
+  --color-lemon-zest: #FFE55C;
+  --color-squeeze-pink: #FFB6D9;
+  --color-juice-green: #B8F5CD;
+  --color-pulp-cream: #FFF5E1;
+  --color-seed-brown: #8B7355;
+  --color-shadow-gray: #F0F0F0;
+
+  /* Font Families */
+  --font-family-display: 'Righteous', system-ui, sans-serif;
+  --font-family-body: 'DM Sans', system-ui, sans-serif;
+
+  /* Spacing Scale */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--font-family-body);
+  background-color: var(--color-lemon-yellow);
+  color: var(--color-seed-brown);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-display);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
